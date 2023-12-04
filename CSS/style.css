@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://images.unsplash.com/photo-1508163223045-1880bc36e222?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwMTE5NjUxOQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600') no-repeat center;
+}
+
+.main-box {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 1.25rem;
+    width: 28.125rem;
+}
+
+.input-city {
+    border: none;
+    outline: none;
+    padding: .625rem;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 6.25rem);
+}
+
+.search-button {
+    border: none;
+    outline: none;
+    padding: .625rem;
+    border-radius: 40px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-search {
+    width: 1.25rem;
+}
+
+.mid-box {
+    margin-top: 1.875rem;
+}
+
+.city {
+    color: #ffffff;
+    font-size: 1.625rem;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-top: 1.25rem;
+}
+
+.alt-box {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.climate-text {
+    color: #ffffff;
+    margin-left: 1.25rem;
+    text-transform: capitalize;
+}
+
+.moisture {
+    color: #ffffff;
+    margin-top: 1.25rem;
+}
+
+@media (max-width: 528px) {
+    .main-box {
+        width: 14.0625rem;
+    }
+}
